@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7c18c261-bcbb-4e73-bed9-8f2455449a9d" name="Default Changelist" comment="" />
+    <list default="true" id="7c18c261-bcbb-4e73-bed9-8f2455449a9d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/import/contas.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/adriano/sincronizacaoreceita/services/SincronizacaoReceitaServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/adriano/sincronizacaoreceita/services/SincronizacaoReceitaServiceTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +20,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1hCKbP6RdP26r8hVvchunaKgkKf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -27,6 +36,7 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
@@ -39,14 +49,12 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="br.com.adriano.sincronizacaoreceita.services" />
       <recent name="br.com.adriano.sincronizacaoreceita.thread" />
       <recent name="br.com.adriano.atualizareceita.services" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/.idea" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.mkyong" />
@@ -57,8 +65,11 @@
     <key name="CreateBuilderDialog.RecentsKey">
       <recent name="com.mkyong" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/.idea" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="JUnit.SincronizacaoReceitaServiceTest.naoDeveProcessarQuandoNaoForUmArquivoValido">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.adriano.sincronizacaoreceita.App" />
       <module name="sincronizacaoreceita" />
@@ -88,33 +99,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AtualizaReceitaTest.teste" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SincronizacaoReceitaServiceTest.deveProcessarComSucesso" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sincronizacaoreceita" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.adriano.sincronizacaoreceita.thread.*" />
+          <option name="PATTERN" value="br.com.adriano.sincronizacaoreceita.services.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="br.com.adriano.sincronizacaoreceita.thread" />
-      <option name="MAIN_CLASS_NAME" value="br.com.adriano.sincronizacaoreceita.thread.AtualizaReceitaTest" />
-      <option name="METHOD_NAME" value="teste" />
+      <option name="PACKAGE_NAME" value="br.com.adriano.sincronizacaoreceita.services" />
+      <option name="MAIN_CLASS_NAME" value="br.com.adriano.sincronizacaoreceita.services.SincronizacaoReceitaServiceTest" />
+      <option name="METHOD_NAME" value="deveProcessarComSucesso" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SincronizacaoReceitaServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SincronizacaoReceitaServiceTest.naoDeveProcessarQuandoNaoForUmArquivoValido" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sincronizacaoreceita" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.adriano.atualizareceita.services.*" />
+          <option name="PATTERN" value="br.com.adriano.sincronizacaoreceita.services.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="br.com.adriano.atualizareceita.services" />
-      <option name="MAIN_CLASS_NAME" value="br.com.adriano.atualizareceita.services.SincronizacaoReceitaServiceTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="br.com.adriano.sincronizacaoreceita.services" />
+      <option name="MAIN_CLASS_NAME" value="br.com.adriano.sincronizacaoreceita.services.SincronizacaoReceitaServiceTest" />
+      <option name="METHOD_NAME" value="naoDeveProcessarQuandoNaoForUmArquivoValido" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -134,18 +146,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.App" />
-      <item itemvalue="JUnit.SincronizacaoReceitaServiceTest" />
-      <item itemvalue="JUnit.AtualizaReceitaTest.teste" />
       <item itemvalue="JUnit.AtualizaReceitaTest" />
       <item itemvalue="Spring Boot.App" />
+      <item itemvalue="JUnit.SincronizacaoReceitaServiceTest.deveProcessarComSucesso" />
+      <item itemvalue="JUnit.SincronizacaoReceitaServiceTest.naoDeveProcessarQuandoNaoForUmArquivoValido" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SincronizacaoReceitaServiceTest.naoDeveProcessarQuandoNaoForUmArquivoValido" />
+        <item itemvalue="JUnit.SincronizacaoReceitaServiceTest.deveProcessarComSucesso" />
         <item itemvalue="Application.App" />
         <item itemvalue="Spring Boot.App" />
         <item itemvalue="JUnit.AtualizaReceitaTest" />
-        <item itemvalue="JUnit.AtualizaReceitaTest.teste" />
-        <item itemvalue="JUnit.SincronizacaoReceitaServiceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +175,7 @@
       <workItem from="1599516829927" duration="215000" />
       <workItem from="1599517471212" duration="9094000" />
       <workItem from="1599527667736" duration="11814000" />
-      <workItem from="1599539816863" duration="323000" />
+      <workItem from="1599539816863" duration="1120000" />
     </task>
     <servers />
   </component>
@@ -199,22 +211,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="468" height="465" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1599537910998" />
-    <state width="1324" height="110" key="GridCell.Tab.0.bottom" timestamp="1599539928364">
+    <state width="1324" height="75" key="GridCell.Tab.0.bottom" timestamp="1599541037542">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1324" height="110" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599539928364" />
-    <state width="1324" height="110" key="GridCell.Tab.0.center" timestamp="1599539928363">
+    <state width="1324" height="75" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599541037542" />
+    <state width="1324" height="75" key="GridCell.Tab.0.center" timestamp="1599541037542">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1324" height="110" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599539928363" />
-    <state width="1324" height="110" key="GridCell.Tab.0.left" timestamp="1599539928363">
+    <state width="1324" height="75" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599541037542" />
+    <state width="1324" height="75" key="GridCell.Tab.0.left" timestamp="1599541037541">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1324" height="110" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599539928363" />
-    <state width="1324" height="110" key="GridCell.Tab.0.right" timestamp="1599539928364">
+    <state width="1324" height="75" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599541037541" />
+    <state width="1324" height="75" key="GridCell.Tab.0.right" timestamp="1599541037542">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1324" height="110" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599539928364" />
+    <state width="1324" height="75" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599541037542" />
     <state width="1324" height="150" key="GridCell.Tab.1.bottom" timestamp="1599539756229">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -247,6 +259,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="110" y="120" width="1166" height="528" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1599540261358" />
+    <state x="480" y="283" width="395" height="154" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599540692042">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="480" y="283" width="395" height="154" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1599540692042" />
     <state x="418" y="108" width="553" height="503" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1599540230795">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
