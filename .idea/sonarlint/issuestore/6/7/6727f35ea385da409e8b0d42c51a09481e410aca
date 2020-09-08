@@ -1,0 +1,9 @@
+
+W
+java:S1141"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8ìØÛÔÆ.
+g	java:S112'"FDefine and throw a dedicated exception instead of using a generic one.(„¡Š»úÿÿÿÿ8ìØÛÔÆ.
+^
+java:S3457&"AFormat specifiers should be used instead of string concatenation.(Í¶Î¹8ÖÁçŞÆ.
+c
+java:S3457)"AFormat specifiers should be used instead of string concatenation.(áÙ®®ûÿÿÿÿ8ÖÁçŞÆ.
+X	java:S125""<This block of commented-out lines of code should be removed.(éê¿æ8Â´¬ÛÆ.

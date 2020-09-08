@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7c18c261-bcbb-4e73-bed9-8f2455449a9d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1hCKbP6RdP26r8hVvchunaKgkKf" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="br.com.adriano.sincronizacaoreceita.thread" />
+      <recent name="br.com.adriano.atualizareceita.services" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/.idea" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.mkyong" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/mkyong/services" />
+    </key>
+    <key name="CreateBuilderDialog.RecentsKey">
+      <recent name="com.mkyong" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.adriano.sincronizacaoreceita.App" />
+      <module name="sincronizacaoreceita" />
+      <option name="PROGRAM_PARAMETERS" value="$PROJECT_DIR$/../import/contas.csv" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.adriano.sincronizacaoreceita.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AtualizaReceitaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sincronizacaoreceita" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.adriano.sincronizacaoreceita.thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.adriano.sincronizacaoreceita.thread" />
+      <option name="MAIN_CLASS_NAME" value="br.com.adriano.sincronizacaoreceita.thread.AtualizaReceitaTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AtualizaReceitaTest.teste" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sincronizacaoreceita" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.adriano.sincronizacaoreceita.thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.adriano.sincronizacaoreceita.thread" />
+      <option name="MAIN_CLASS_NAME" value="br.com.adriano.sincronizacaoreceita.thread.AtualizaReceitaTest" />
+      <option name="METHOD_NAME" value="teste" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SincronizacaoReceitaServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sincronizacaoreceita" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.adriano.atualizareceita.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.adriano.atualizareceita.services" />
+      <option name="MAIN_CLASS_NAME" value="br.com.adriano.atualizareceita.services.SincronizacaoReceitaServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="sincronizacaoreceita" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.adriano.sincronizacaoreceita.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="br.com.adriano.sincronizacaoreceita.App" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.App" />
+      <item itemvalue="JUnit.SincronizacaoReceitaServiceTest" />
+      <item itemvalue="JUnit.AtualizaReceitaTest.teste" />
+      <item itemvalue="JUnit.AtualizaReceitaTest" />
+      <item itemvalue="Spring Boot.App" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+        <item itemvalue="Spring Boot.App" />
+        <item itemvalue="JUnit.AtualizaReceitaTest" />
+        <item itemvalue="JUnit.AtualizaReceitaTest.teste" />
+        <item itemvalue="JUnit.SincronizacaoReceitaServiceTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7c18c261-bcbb-4e73-bed9-8f2455449a9d" name="Default Changelist" comment="" />
+      <created>1599509704518</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599509704518</updated>
+      <workItem from="1599509709625" duration="6880000" />
+      <workItem from="1599516829927" duration="215000" />
+      <workItem from="1599517471212" duration="9094000" />
+      <workItem from="1599527667736" duration="11814000" />
+      <workItem from="1599539816863" duration="323000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="278" y="24" width="800" height="671" key="#Project_Structure" timestamp="1599529043215">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="278" y="24" width="800" height="671" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1599529043215" />
+    <state x="261" y="34" width="833" height="652" key="#SincronizacaoReceitaServiceTest" timestamp="1599536884224">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="261" y="34" width="833" height="652" key="#SincronizacaoReceitaServiceTest/0.0.1366.728@0.0.1366.728" timestamp="1599536884224" />
+    <state x="141" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599539880509">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="141" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1599539880509" />
+    <state x="491" y="82" width="374" height="556" key="#com.intellij.ide.util.MemberChooser" timestamp="1599512786168">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="491" y="82" width="374" height="556" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1599512786168" />
+    <state x="415" y="150" width="525" height="420" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1599539877359">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="415" y="150" width="525" height="420" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1599539877359" />
+    <state x="0" y="0" width="1356" height="722" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1599523889500">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="0" y="0" width="1356" height="722" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1599523889500" />
+    <state width="468" height="465" key="DebuggerActiveHint" timestamp="1599537910998">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="468" height="465" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1599537910998" />
+    <state width="1324" height="110" key="GridCell.Tab.0.bottom" timestamp="1599539928364">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1324" height="110" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599539928364" />
+    <state width="1324" height="110" key="GridCell.Tab.0.center" timestamp="1599539928363">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1324" height="110" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599539928363" />
+    <state width="1324" height="110" key="GridCell.Tab.0.left" timestamp="1599539928363">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1324" height="110" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599539928363" />
+    <state width="1324" height="110" key="GridCell.Tab.0.right" timestamp="1599539928364">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1324" height="110" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599539928364" />
+    <state width="1324" height="150" key="GridCell.Tab.1.bottom" timestamp="1599539756229">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1324" height="150" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599539756229" />
+    <state width="1324" height="150" key="GridCell.Tab.1.center" timestamp="1599539756228">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1324" height="150" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1599539756228" />
+    <state width="1324" height="150" key="GridCell.Tab.1.left" timestamp="1599539756228">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1324" height="150" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1599539756228" />
+    <state width="1324" height="150" key="GridCell.Tab.1.right" timestamp="1599539756229">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1324" height="150" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1599539756229" />
+    <state x="216" y="21" width="924" height="678" key="Maven.ArtifactSearchDialog" timestamp="1599512592202">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="216" y="21" width="924" height="678" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1599512592202" />
+    <state x="166" y="0" width="1024" height="722" key="SettingsEditor" timestamp="1599512616528">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="166" y="0" width="1024" height="722" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1599512616528" />
+    <state x="126" y="200" width="1166" height="528" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1599540161149">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="126" y="200" width="1166" height="528" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1599540161149" />
+    <state x="110" y="120" width="1166" height="528" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1599540261358">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="110" y="120" width="1166" height="528" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1599540261358" />
+    <state x="418" y="108" width="553" height="503" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1599540230795">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="418" y="108" width="553" height="503" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1599540230795" />
+    <state x="428" y="0" width="500" height="722" key="refactoring.ChangeSignatureDialog" timestamp="1599529355371">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="428" y="0" width="500" height="722" key="refactoring.ChangeSignatureDialog/0.0.1366.728@0.0.1366.728" timestamp="1599529355371" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1599530067846">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1599530067846" />
+    <state x="366" y="50" key="spring file set editor" timestamp="1599528045817">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="366" y="50" key="spring file set editor/0.0.1366.728@0.0.1366.728" timestamp="1599528045817" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/br/com/adriano/atualizareceita/services/SincronizacaoReceitaServiceTest.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/br/com/adriano/sincronizacaoreceita/services/LeitorCSVService.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/br/com/adriano/sincronizacaoreceita/services/SincronizacaoReceitaService.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/br/com/adriano/sincronizacaoreceita/services/LeitorCSVService.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/br/com/adriano/sincronizacaoreceita/services/LeitorCSVService.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/br/com/adriano/sincronizacaoreceita/thread/AtualizaReceita.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/br/com/adriano/sincronizacaoreceita/thread/AtualizaReceita.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/br/com/adriano/sincronizacaoreceita/thread/AtualizaReceita.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="taskExecutor.getActiveCount()" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/SincronizacaoReceita$SincronizacaoReceitaServiceTest.ic" NAME="SincronizacaoReceitaServiceTest Coverage Results" MODIFIED="1599536844356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>br.com.adriano.atualizareceita.services.*</FILTER>
+    </SUITE>
+  </component>
+</project>
