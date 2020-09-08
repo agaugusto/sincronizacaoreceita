@@ -1,6 +1,7 @@
 /home/adriano/workspace/sincronizacaoreceita/src/main/java/br/com/adriano/sincronizacaoreceita/services/SincronizacaoReceitaService.java
 /home/adriano/workspace/sincronizacaoreceita/src/main/java/br/com/adriano/sincronizacaoreceita/App.java
 /home/adriano/workspace/sincronizacaoreceita/src/main/java/br/com/adriano/sincronizacaoreceita/services/ReceitaService.java
+/home/adriano/workspace/sincronizacaoreceita/src/main/java/br/com/adriano/sincronizacaoreceita/services/EscritorCSVService.java
 /home/adriano/workspace/sincronizacaoreceita/src/main/java/br/com/adriano/sincronizacaoreceita/services/LeitorCSVService.java
 /home/adriano/workspace/sincronizacaoreceita/src/main/java/br/com/adriano/sincronizacaoreceita/model/ContaCSV.java
 /home/adriano/workspace/sincronizacaoreceita/src/main/java/br/com/adriano/sincronizacaoreceita/thread/AtualizaReceita.java

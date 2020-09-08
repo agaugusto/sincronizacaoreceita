@@ -1,4 +1,5 @@
 br/com/adriano/sincronizacaoreceita/services/ReceitaService.class
+br/com/adriano/sincronizacaoreceita/services/EscritorCSVService.class
 br/com/adriano/sincronizacaoreceita/thread/AtualizaReceita.class
 br/com/adriano/sincronizacaoreceita/services/LeitorCSVService.class
 br/com/adriano/sincronizacaoreceita/model/ContaCSV$ContaCSVBuilder.class
