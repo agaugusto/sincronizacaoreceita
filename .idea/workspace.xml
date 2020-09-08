@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c18c261-bcbb-4e73-bed9-8f2455449a9d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/adriano/sincronizacaoreceita/services/EscritorCSVService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Spring-Config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Spring-Config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/sincronizacaoreceita-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/sincronizacaoreceita-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/sincronizacaoreceita-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/sincronizacaoreceita-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/adriano/sincronizacaoreceita/model/ContaCSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/adriano/sincronizacaoreceita/model/ContaCSV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/adriano/sincronizacaoreceita/services/LeitorCSVService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/adriano/sincronizacaoreceita/services/LeitorCSVService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/adriano/sincronizacaoreceita/services/SincronizacaoReceitaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/adriano/sincronizacaoreceita/services/SincronizacaoReceitaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/adriano/sincronizacaoreceita/thread/AtualizaReceita.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/adriano/sincronizacaoreceita/thread/AtualizaReceita.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/adriano/sincronizacaoreceita/services/SincronizacaoReceitaServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/adriano/sincronizacaoreceita/services/SincronizacaoReceitaServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Spring-Config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Spring-Config.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -70,7 +74,7 @@
       <recent name="$PROJECT_DIR$/.idea" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SincronizacaoReceitaServiceTest.naoDeveProcessarQuandoNaoForUmArquivoValido">
+  <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.adriano.sincronizacaoreceita.App" />
       <module name="sincronizacaoreceita" />
@@ -154,9 +158,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SincronizacaoReceitaServiceTest.naoDeveProcessarQuandoNaoForUmArquivoValido" />
-        <item itemvalue="JUnit.SincronizacaoReceitaServiceTest.deveProcessarComSucesso" />
         <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.SincronizacaoReceitaServiceTest.deveProcessarComSucesso" />
+        <item itemvalue="JUnit.SincronizacaoReceitaServiceTest.naoDeveProcessarQuandoNaoForUmArquivoValido" />
         <item itemvalue="Spring Boot.App" />
         <item itemvalue="JUnit.AtualizaReceitaTest" />
       </list>
@@ -176,7 +180,7 @@
       <workItem from="1599516829927" duration="215000" />
       <workItem from="1599517471212" duration="9094000" />
       <workItem from="1599527667736" duration="11814000" />
-      <workItem from="1599539816863" duration="2006000" />
+      <workItem from="1599539816863" duration="6948000" />
     </task>
     <servers />
   </component>
@@ -196,10 +200,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="141" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1599539880509" />
-    <state x="491" y="82" width="374" height="556" key="#com.intellij.ide.util.MemberChooser" timestamp="1599512786168">
+    <state x="491" y="82" width="374" height="556" key="#com.intellij.ide.util.MemberChooser" timestamp="1599542590028">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="491" y="82" width="374" height="556" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1599512786168" />
+    <state x="491" y="82" width="374" height="556" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1599542590028" />
     <state x="415" y="150" width="525" height="420" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1599539877359">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -212,38 +216,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="468" height="465" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1599537910998" />
-    <state width="1324" height="75" key="GridCell.Tab.0.bottom" timestamp="1599541647846">
+    <state width="1324" height="164" key="GridCell.Tab.0.bottom" timestamp="1599546676465">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1324" height="75" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599541647846" />
-    <state width="1324" height="75" key="GridCell.Tab.0.center" timestamp="1599541647846">
+    <state width="1324" height="164" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599546676465" />
+    <state width="1324" height="164" key="GridCell.Tab.0.center" timestamp="1599546676465">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1324" height="75" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599541647846" />
-    <state width="1324" height="75" key="GridCell.Tab.0.left" timestamp="1599541647845">
+    <state width="1324" height="164" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599546676465" />
+    <state width="1324" height="164" key="GridCell.Tab.0.left" timestamp="1599546676465">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1324" height="75" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599541647845" />
-    <state width="1324" height="75" key="GridCell.Tab.0.right" timestamp="1599541647846">
+    <state width="1324" height="164" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599546676465" />
+    <state width="1324" height="164" key="GridCell.Tab.0.right" timestamp="1599546676465">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1324" height="75" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599541647846" />
-    <state width="1324" height="150" key="GridCell.Tab.1.bottom" timestamp="1599539756229">
+    <state width="1324" height="164" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599546676465" />
+    <state width="1324" height="150" key="GridCell.Tab.1.bottom" timestamp="1599545843524">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1324" height="150" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599539756229" />
-    <state width="1324" height="150" key="GridCell.Tab.1.center" timestamp="1599539756228">
+    <state width="1324" height="150" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599545843524" />
+    <state width="1324" height="150" key="GridCell.Tab.1.center" timestamp="1599545843523">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1324" height="150" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1599539756228" />
-    <state width="1324" height="150" key="GridCell.Tab.1.left" timestamp="1599539756228">
+    <state width="1324" height="150" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1599545843523" />
+    <state width="1324" height="150" key="GridCell.Tab.1.left" timestamp="1599545843523">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1324" height="150" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1599539756228" />
-    <state width="1324" height="150" key="GridCell.Tab.1.right" timestamp="1599539756229">
+    <state width="1324" height="150" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1599545843523" />
+    <state width="1324" height="150" key="GridCell.Tab.1.right" timestamp="1599545843523">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1324" height="150" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1599539756229" />
+    <state width="1324" height="150" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1599545843523" />
     <state x="216" y="21" width="924" height="678" key="Maven.ArtifactSearchDialog" timestamp="1599512592202">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -268,10 +272,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="418" y="108" width="553" height="503" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1599540230795" />
-    <state x="428" y="0" width="500" height="722" key="refactoring.ChangeSignatureDialog" timestamp="1599529355371">
+    <state x="428" y="0" width="500" height="722" key="refactoring.ChangeSignatureDialog" timestamp="1599543468406">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="428" y="0" width="500" height="722" key="refactoring.ChangeSignatureDialog/0.0.1366.728@0.0.1366.728" timestamp="1599529355371" />
+    <state x="428" y="0" width="500" height="722" key="refactoring.ChangeSignatureDialog/0.0.1366.728@0.0.1366.728" timestamp="1599543468406" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1599530067846">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -290,43 +294,51 @@
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/br/com/adriano/sincronizacaoreceita/services/LeitorCSVService.java</url>
-          <line>37</line>
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/br/com/adriano/sincronizacaoreceita/services/SincronizacaoReceitaService.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/br/com/adriano/sincronizacaoreceita/services/LeitorCSVService.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/br/com/adriano/sincronizacaoreceita/services/LeitorCSVService.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/br/com/adriano/sincronizacaoreceita/thread/AtualizaReceita.java</url>
-          <line>24</line>
+          <line>27</line>
           <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/br/com/adriano/sincronizacaoreceita/thread/AtualizaReceita.java</url>
-          <line>26</line>
+          <line>29</line>
           <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/br/com/adriano/sincronizacaoreceita/services/EscritorCSVService.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/br/com/adriano/sincronizacaoreceita/services/SincronizacaoReceitaService.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/br/com/adriano/sincronizacaoreceita/thread/AtualizaReceita.java</url>
           <line>32</line>
-          <option name="timeStamp" value="31" />
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/br/com/adriano/sincronizacaoreceita/thread/AtualizaReceita.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/br/com/adriano/sincronizacaoreceita/services/EscritorCSVService.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/br/com/adriano/sincronizacaoreceita/services/EscritorCSVService.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="37" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="caminho.substring(0, caminho.length()-4)" language="JAVA" />
+      </configuration>
       <configuration name="Application">
         <watch expression="taskExecutor.getActiveCount()" language="JAVA" />
       </configuration>

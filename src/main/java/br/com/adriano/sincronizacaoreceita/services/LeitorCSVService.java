@@ -42,7 +42,7 @@ public class LeitorCSVService {
 
         ContaCSV contaCSV = ContaCSV.builder()
                 .agencia(line[0])
-                .conta(line[1].replaceAll("-", ""))
+                .conta(line[1])
                 .saldo(Double.valueOf(line[2].replaceAll(",", ".")))
                 .status(line[3]).build();
         return contaCSV;

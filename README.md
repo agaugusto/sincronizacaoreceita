@@ -11,3 +11,4 @@ agencia;conta;saldo;status
 3202;40011-1;-35,12;I
 
 O processamento já desconsidera a primeira linha do arquivo.
+Arquivo de retorno com Coluna de Processado informando Sim ou Não.

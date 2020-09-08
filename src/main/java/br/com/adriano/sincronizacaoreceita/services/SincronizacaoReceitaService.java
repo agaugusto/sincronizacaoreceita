@@ -10,11 +10,13 @@ import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 import org.springframework.stereotype.Service;
 
 import java.io.FileNotFoundException;
+import java.io.IOException;
 
 @Service
 public class SincronizacaoReceitaService {
     private static final Logger LOGGER = LoggerFactory.getLogger(SincronizacaoReceitaService.class);
     private final LeitorCSVService leitorCSVService;
+
     ApplicationContext context = new ClassPathXmlApplicationContext(
             "Spring-Config.xml");
 
@@ -25,13 +27,15 @@ public class SincronizacaoReceitaService {
         this.leitorCSVService = leitorCSVService;
     }
 
-    public void processarAtualizacao(String caminho) {
+    public void processarAtualizacao(String caminho) throws IOException {
+        EscritorCSVService escritorCSVService;
         try {
             Integer task = 0;
             leitorCSVService.leitorDeArquivoCSV(caminho.trim());
             ContaCSV contaCSV = leitorCSVService.BuscarProximaConta();
+            escritorCSVService = new EscritorCSVService(caminho.trim());
             while (contaCSV != null) {
-                taskExecutor.execute(new AtualizaReceita("Thread " + task, contaCSV));
+                taskExecutor.execute(new AtualizaReceita("Thread " + task, contaCSV, escritorCSVService));
                 task ++;
                 contaCSV = leitorCSVService.BuscarProximaConta();
             }
@@ -39,6 +43,7 @@ public class SincronizacaoReceitaService {
             for (; ; ) {
                 Thread.sleep(5000);
                 if (taskExecutor.getActiveCount() == 0) {
+                    escritorCSVService.fecharArquivo();
                     LOGGER.info("Processo finalizado!");
                     break;
                 }
@@ -49,4 +54,5 @@ public class SincronizacaoReceitaService {
             LOGGER.error("Processamento Interrompido!");
         }
     }
+
 }

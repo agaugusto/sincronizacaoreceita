@@ -14,4 +14,5 @@ public class ContaCSV {
     private String conta;
     private Double saldo;
     private String status;
+    private String processamento;
 }
